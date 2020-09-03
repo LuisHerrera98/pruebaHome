@@ -10,7 +10,7 @@ body{
 }
 
 /* CABECERA */
-.container{
+.containerPrincipal{
     width: 85%;
     max-width: 850px;
     margin: 0 50px;
@@ -24,7 +24,8 @@ body{
     position: fixed;
     left: 0;
     top: 0;
-    right: 0;;
+    right: 0;
+    z-index: 100;
 }
 
 .header a {
@@ -91,9 +92,7 @@ body{
     max-width: 850px;
     margin: 0 auto;
 }
-.main{
-    padding-top: 12rem;
-}
+
 
 P{
     margin-bottom: 1.6em;
