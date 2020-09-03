@@ -10,7 +10,7 @@ body{
 .container{
     width: 85%;
     max-width: 850px;
-    margin: 0 auto;
+    margin: 0 15px;
 }
 
 .header {
@@ -31,7 +31,7 @@ body{
 
 .logo-nav-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: ;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -40,6 +40,11 @@ body{
     letter-spacing: 15px;
     font-size: 1.4em;
     border-radius: 20px;
+}
+.logo img{
+    border-radius: 40px;
+    width: 75px;
+
 }
 
 .navegacion ul {
@@ -74,7 +79,14 @@ body{
     display: none;
 }
 
-
+.nombreTienda{
+    display: inline-block;
+    margin: auto 30px;
+}
+.navegacion{
+    margin: auto 20px;
+    display: inline-block;
+}
 
 
 /* MAIN */
@@ -100,6 +112,8 @@ h1{
     text-align: center;
     margin-top: 6rem;
 }
+hr {border: 0; height: 4px; margin-top: 20px;background-image: linear-gradient(left, #fff, red, #fff); text-align: center;}
+hr:after {content:"<hr/>"; position: relative; top: -12px; display: inline-block; width: 36px; height: 24px; padding: 0;border: 2px solid red; border-radius: 24px; background: red; color: white; font-size: 12px; line-height: 24px; }
 
 
 
@@ -135,6 +149,4 @@ h1{
     .navegacion ul li a:hover {
         background: #4a4a4a;
     }
-
-
 }
