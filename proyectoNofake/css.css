@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    /*background-color: rgb(238, 238, 238);*/
+    background-image: linear-gradient(-45deg, #9e9e9e 50%, rgb(230, 230, 230) 50%);
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(32, 32, 32);
+}
+.fas.fa-bars{
+    color: white;
+    font-size: 24px;
+}
+.fas.fa-shopping-cart{
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+header article{
+    width: 22%;
+    position: relative;
+}
+header article img{
+    width: 60px;
+    border-radius: 100px;
+    background-color: none;
+}
+nav ul{
+    display: none;
+}
+nav ul:show{
+    display: block
+}
+
+/*FOOTER*/
+
+.container{
+ width: 100%;
+ background-color: black;
+}
+
+h5{
+    color: white;
+}
+
