@@ -30,12 +30,19 @@ header article img{
     border-radius: 100px;
     background-color: none;
 }
-nav ul{
+
+.nav{
+    margin-top: 200px;
+    background-color: rgb(44, 43, 43);
+    display: block;
+}
+.nav ul{
     display: none;
 }
-nav ul:show{
-    display: block
+.nav ul.show{
+    display: block;
 }
+
 
 /*FOOTER*/
 
