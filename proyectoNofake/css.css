@@ -4,47 +4,54 @@ body{
     /*background-color: rgb(238, 238, 238);*/
     background-image: linear-gradient(-45deg, #9e9e9e 50%, rgb(230, 230, 230) 50%);
 }
-header{
+/*HEADER*/
+
+.menuSup{
     display: flex;
     width: 100%;
-    height: 70px;
-    justify-content: space-around;
-    align-items: center;
-    background-color:rgb(32, 32, 32);
-}
-.fas.fa-bars{
-    color: white;
-    font-size: 24px;
-}
-.fas.fa-shopping-cart{
-    color: white;
-    position: absolute;
-    right: 10px;
-}
-header article{
-    width: 22%;
+    background-color: rgb(20, 20, 19);
+    padding: 5px;
     position: relative;
 }
-header article img{
-    width: 60px;
-    border-radius: 100px;
-    background-color: none;
+.imgYnombre{
+    width: auto;
+    display: flex;
+    margin-right: 10px;
 }
-
-.nav{
-    margin-top: 200px;
-    background-color: rgb(44, 43, 43);
-    display: block;
+.imgYnombre img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-right: 6px;
 }
-.nav ul{
-    display: none;
+.imgYnombre h5{
+    font-size: 16px;
 }
-.nav ul.show{
-    display: block;
+.buscador{
+    width: 37%;
+    padding-top: 2px;
 }
+.cajaCarrito{
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fas.fa-shopping-cart{
+    color: blanchedalmond;
+}
+.menu2{
+    width: 100%;
+    height: 50px;
+    background-color: brown;
 
-
-
+}
+main { 
+    width: 90%;
+}
 /*FOOTER*/
 
 .container{
